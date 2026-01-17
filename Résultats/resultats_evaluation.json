@@ -1,0 +1,54 @@
+{
+  "date_evaluation": "2026-01-04 19:49:19",
+  "modele_utilise": "modeles_detection_chats/best_model.pth",
+  "meilleur_epoch": 17,
+  "meilleure_val_loss": 0.011624379138006492,
+  "resultats_par_seuil": {
+    "0.3": {
+      "precision": 0.93048128342246,
+      "rappel": 0.9830508474576272,
+      "f1_score": 0.956043956043956,
+      "vrais_positifs": 174,
+      "faux_positifs": 13,
+      "faux_negatifs": 3,
+      "iou_moyen": 0.8745919414223197,
+      "iou_median": 0.9414687156677246
+    },
+    "0.5": {
+      "precision": 0.9611111111111111,
+      "rappel": 0.9774011299435028,
+      "f1_score": 0.9691876750700281,
+      "vrais_positifs": 173,
+      "faux_positifs": 7,
+      "faux_negatifs": 4,
+      "iou_moyen": 0.9036411946846379,
+      "iou_median": 0.9438827931880951
+    },
+    "0.7": {
+      "precision": 0.9774011299435028,
+      "rappel": 0.9774011299435028,
+      "f1_score": 0.9774011299435028,
+      "vrais_positifs": 173,
+      "faux_positifs": 4,
+      "faux_negatifs": 4,
+      "iou_moyen": 0.9176171115562741,
+      "iou_median": 0.944102942943573
+    },
+    "0.8": {
+      "precision": 0.9829545454545454,
+      "rappel": 0.9774011299435028,
+      "f1_score": 0.9801699716713881,
+      "vrais_positifs": 173,
+      "faux_positifs": 3,
+      "faux_negatifs": 4,
+      "iou_moyen": 0.922830845144662,
+      "iou_median": 0.9445393681526184
+    }
+  },
+  "recommandation": {
+    "seuil_optimal": 0.7,
+    "precision": 0.9774011299435028,
+    "rappel": 0.9774011299435028,
+    "f1_score": 0.9774011299435028
+  }
+}
